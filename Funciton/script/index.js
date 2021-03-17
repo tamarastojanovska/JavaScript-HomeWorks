@@ -1,32 +1,33 @@
 //HOMEWORK #1
 
-/* function MyFunction(name,  surname, bird, year) {
-    alert("Hello" +name+surname+bird+year);
- 
+
+
+function myFunction (name, surname, year ,birth) {
+alert ("Hello"+ name+ surname +year+ birth);
 }
-MyFunction("Tamara");
-MyFunction("Stojanovska");
-MyFunction("bird");
-MyFunction(1993); */
+myFunction("Tamara","Stojanovska",1993,"birth");
 
 //HOMEWORK #2
 
-function MyFunction(year){
-	let result = year /7;
-	return result;
-}
-function MyFunction(year){
-	let result = 7 * (year);
-	return result;  
-}
 
-//The person chooses what to calculate
-let personChoice = prompt("Enter year for dog and year for people");
-let personInput = parseInt(prompt("Please enter value:"));
-if(personChoice === "dog"){
-	console.log(`${celToFar(personInput)}people`);
-} else if(personChoice === "people"){
-	console.log(`${farToCel(personInput)}dog`);
-} else {
-	console.log("ERROR!");
-}
+// function myFunction(number){
+// 	let result = number * 7;
+// 	return result;
+// }
+// function MyFunction1(number1){
+// 	let result = number1 // 7;
+// 	return result;  
+// }
+
+// //The person chooses what to calculate
+// let personChoice = prompt("Enter dog or people");
+// let personInput = parseInt(prompt("Please enter value:"));
+// if(personChoice === "dog"){
+// 	console.log(`${myFunction(personInput)}year`);
+// } else if(personChoice === "people"){
+// 	console.log(`${MyFunction1(personInput)}year`);
+// } else {
+// 	console.log("ERROR!");
+//}
+
+

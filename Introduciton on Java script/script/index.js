@@ -7,7 +7,9 @@ function fixOrder() {
     tax      = parseFloat(document.getElementById("tax").value);
     total    = parseFloat(document.getElementById("total").value);
 
-    numPrice = numPrice * TAX;
+    
+
+    numPrice = numPrice * tax;
     total    = numPrice;
     total    = document.getElementById("total").value = "$" + total.toFixed(2);
 
